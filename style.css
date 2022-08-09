@@ -1,17 +1,26 @@
 @import url('https://fonts..com/css2?family=poppins:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-  body{
+  body {
       text-align: center;
       background:url(/static/bg3.png/1);
   }
 
-.conatiner {
-    max-width: 1024px;
+.container {
     text-align: center;
-    margin: 0px auto;
-    width: 100%;
 }
-.header {
+.section {
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+   text-align: left;
+    max-width: 1024px;
+    margin: 0px auto;
+    padding: 5px;
+}
+b {
+    font-weight: bold;
+}
+
+
+#header {
     background-color: #F6F6EC;
     background-size: cover;
     border: 1px solid #c8ccc0;
@@ -32,8 +41,10 @@ h2 {
     color: #200;
     font-family: Open Sans, system-ui, r-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
     font-size: 15px;
-    margin:  0px auto;
+    margin: 0px auto;
     max-width: 1024px;
+    padding: 1px;
+    text-align: center;
 }  
 a {
     color: #181870;
@@ -44,31 +55,52 @@ a:hover {
 }
 .box1 {
     background-color: #F6F6EC;
-    padding: 6px;
-
+    padding: 0px;
 }
 .box2 {
     background-color: #E8ECE0;
-    padding: 6px;
-
+    padding: 0px;
 }
 .box3 {
-    background-color: #F6F6EC;
-    padding: 6px;  
+    background-color: #F6F6EC;  
+     padding: 0px;
 }
- 
-.section {
-    font-family: Open Sans, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
-    font-size: 15px;
-    text-align: left;
-    max-width: 1024px;
-    margin: 0px auto;
-    background-color: rgb(246, 246, 236);
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px; 
+
+ h2, .box1 {
+    margin: 0px;
+
 }
+ span {
+    color:#401848;
+}
+ p img {
+    border: 1px solid #c6ccbe;
+    border-radius: 10px;
+    padding: 0px;
+    margin: 6px;
+    width: 318px;
+    height: 106px;
+}
+
+input[type=text], input[type=submit], textarea {
+    border: 1px solid #c8ccc0;
+    border-radius: 12px;
+    background: #fff;
+    padding: 4px 8px;
+
+}
+button, input, textarea {
+    color: #000;
+}
+select, input[type=file], input[type=submit], input[type=checkbox] {
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background: #e8ece0;
+}
+
+
+
 
 
 
