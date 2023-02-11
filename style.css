@@ -1,19 +1,21 @@
 @import url('https://fonts..com/css2?family=poppins:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-  body {
-      text-align: center;
-      margin: 0px auto;
-      background:url(/static/bg3.png/1);
-      max-width: 1024px;
-  }
+ 
   * {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
   }
 
+ body {
+      margin: auto;
+      background:url(/static/bg3.png/1);
+      max-width: 1024px;
+  }
+  
 .container {
     text-align: center;
+    float: left;
 }
 #header {
     background-color: #F6F6EC;
@@ -147,6 +149,27 @@ input[type=submit]:hover {
     background: #e8ece0;
 }
 
+
+
+
+td.forward {
+    opacity: 30px;
+}
+
+@media screen and (min-width:320) and (max-width: 768) {
+    body {
+      height: 100%;
+      width: 100%;
+    }
+
+    }
+    
+    @media screen and (min-width:768) and (max-width: 1200) {
+        body {
+            height: 100%;
+            width: 100%;
+        }
+    }
 
 
 
